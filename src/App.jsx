@@ -6,15 +6,11 @@ const App = () => {
   return (
     <div className="w-full max-w-[100vw] h-full justify-center items-center px-4 pb-4 pt-0 bg-gradient-to-b from-amber-50 from-30% to-amber-200 to-90%">
       <div className="my-0 mx-auto w-[14rem]">
-        <img
-          src="../public/assets/logo.png"
-          alt="logo-pic"
-          className="object-cover"
-        />
+        <img src="../assets/logo.png" alt="logo-pic" className="object-cover" />
       </div>
       <div className="flex flex-col sm:flex-row md:flex-row">
         <div className="my-0 mx-auto w-[6rem] sm:w-[40rem]">
-          <img src="../public/assets/1.png" alt="" />
+          <img src="../assets/1.png" alt="" />
         </div>
         <div>
           <h1 className="text-xs font-bold mb-2 sm:text-[10px]">
@@ -36,7 +32,7 @@ const App = () => {
               </li>
             </ul>
             <figure>
-              <img src="../public/assets/2.png" alt="" className="" />
+              <img src="../assets/2.png" alt="" className="" />
               <figcaption className="text-xs sm:text-[10px]">
                 Government of India has awarded the{" "}
                 <span className="font-bold">
@@ -57,7 +53,7 @@ const App = () => {
         NATION.{" "}
       </h1>
       <div className="flex flex-col gap-2">
-        <img src="../public/assets/3.png" alt="" />
+        <img src="../assets/3.png" alt="" />
         <p className="text-xs text-center font-semibold">
           Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
           Solar Systems - Motors{" "}
